@@ -1,0 +1,196 @@
+/* Changements de résolution */
+
+@media screen and (max-width:950px)
+{
+  /* Header */
+
+    /* Global */
+
+    .headerMain
+    {
+      position: fixed;
+      top: 0;
+    }
+
+    /* Navbar */
+
+    .navbar ul
+    {
+      width: 75%;
+    }
+
+  /* Accueil */
+
+    /* Message de bienvenue */
+
+    .msgAccueil
+    {
+      width: 70%;
+    }
+
+    /* Message de présentation */
+    .container .presentation
+    {
+      width: 70%;
+    }
+
+}
+
+@media screen and (max-width:895px)
+{
+  /* Header */
+
+    /* Global */
+
+    .headerMain
+    {
+      z-index: 10;
+      background: #4F73FD;
+    }
+
+    .headerMain::after
+    {
+      display: block;
+      width: 100%;
+    }
+
+    /* Navbar */
+
+    .navbar ul
+    {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      background: #4F73FD;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0;
+    }
+
+    .navbar ul li 
+    {
+      width: 100%;
+      margin: 0;
+      border-bottom: 1px solid #336699;
+    }
+
+    .navbar ul li a
+    {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-weight: bold;
+    }
+
+    .navbar ul li a:hover, .active
+    {
+      color: #4F73FD;
+      background: #FFD9DA;
+      border: none;
+    }
+
+    .navbar ul li.active a 
+    {
+      color: #4F73FD;
+    }
+
+    .navbar ul .liDeco
+    {
+      display: none;
+    }
+
+    .navbar ul.activeMenu
+    {
+      display: block;
+    }
+
+    /* Boutons de déconnexion */
+
+    .form-deco-mini
+    {
+      display: block;
+      margin-left: auto;
+    }
+
+    /* Menu Hamburger */
+  
+    .menuH
+    {
+      display: block;
+    }
+
+  /* Accueil */
+
+    /* Message de bienvenue */
+
+    .msgAccueil
+    {
+      width: 90%;
+    }
+
+    /* Message de présentation */
+    
+    .container .presentation
+    {
+      width: 90%;
+    }
+
+  /* Téléchargement */
+
+    /* Informations sur le logiciel */
+
+    .informations
+    {
+      width: 90%;
+    }
+
+    .exVersions
+    {
+      width: 90%;
+    }
+
+    .exVersions h2
+    {
+      text-align: center;
+    }
+
+    .exVersions table 
+    {
+      width: 100%;
+    }
+
+  /* Gestion */
+
+    /* Boutons d'actions*/
+    
+    .containerBtns
+    {
+      justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:420px)
+{
+  .download
+  {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:380px)
+{
+  .download
+  {
+    width: 315px;
+  }
+}
+
+@media screen and (max-width:335px)
+{
+  .download
+  {
+    width: 280px;
+  }
+}
